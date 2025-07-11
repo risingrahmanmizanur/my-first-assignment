@@ -1,0 +1,47 @@
+    h1 {
+        font-family: 'Raleway', sans-serif;
+    }
+    body {
+
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('/backgrnd.png'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .logobar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 30px;
+      color: #3C5AFF;
+    }
+
+    .signup {
+      background-color: #3C5AFF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .cool-text {
+      margin-top: 100px;
+      font-size: 36px;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .focus-btn {
+      margin-top: 30px;
+    }
