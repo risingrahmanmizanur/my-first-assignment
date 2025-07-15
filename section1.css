@@ -1,11 +1,4 @@
-/* ==== Fonts ==== */
-body {
-    font-family: "Raleway", sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
-/* ==== Navigation ==== */
 .nav {
     display: flex;
     align-items: center;
@@ -34,7 +27,6 @@ nav li a {
     font-size: 20px;
 }
 
-/* ==== Buttons ==== */
 .btn-primary {
     background-color: #4E47FF;
     color: #FFFFFF;
@@ -47,15 +39,14 @@ nav li a {
     font-family: "Raleway", sans-serif;
 }
 
-/* ==== Header Background ==== */
+
 .header {
-    background-image: url('/Images/Hero-bg.png'); /* Make sure image path is correct */
+    background-image: url('/Images/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-/* ==== Banner Section ==== */
 .banner {
     display: flex;
     justify-content: center;
@@ -63,20 +54,15 @@ nav li a {
     text-align: center;
     padding: 309px 267.5px 152px;
     gap: 37;
-    /* padding: 120px 20px; */
 }
 
 .banner-content {
-    max-width: 905px;
-    
+    max-width: 905px;   
 }
 
 .banner-title {
     font-weight: bold;
     font-size: 65px;
-    /* color: #000000; */
-    /* margin-bottom: 24px; */
-    /* font-family: "Raleway", sans-serif; */
 }
 
 .inter-logo { 
@@ -87,16 +73,11 @@ nav li a {
 }
 
 .body-banner-title {
-    /* font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 16px; Apply general body font size */
-    
+
     font-weight: bold;
     font-size: 42px;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight:<weight>;
-    /* font-weight: <weight>; */
     font-style: normal;
 }
