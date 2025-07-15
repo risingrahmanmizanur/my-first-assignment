@@ -1,47 +1,102 @@
-    h1 {
-        font-family: 'Raleway', sans-serif;
-    }
-    body {
+/* ==== Fonts ==== */
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-image: url('/backgrnd.png'); 
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      text-align: center;
-      padding: 40px 20px;
-    }
-    .logobar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 40px;
-    }
+/* ==== Navigation ==== */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
 
-    .logo {
-      font-weight: bold;
-      font-size: 30px;
-      color: #3C5AFF;
-    }
+.nav-title {
+    font-weight: bolder;
+    font-size: 34px;
+    color: #3C5AFF;
+}
 
-    .signup {
-      background-color: #3C5AFF;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: bold;
-    }
+nav ul {
+    display: flex;
+    align-items: center;
+}
 
-    .cool-text {
-      margin-top: 100px;
-      font-size: 36px;
-      font-weight: bold;
-      color: #222;
-    }
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
 
-    .focus-btn {
-      margin-top: 30px;
-    }
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* ==== Buttons ==== */
+.btn-primary {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    padding: 12px 36px;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+}
+
+/* ==== Header Background ==== */
+.header {
+    background-image: url('/Images/Hero-bg.png'); /* Make sure image path is correct */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ==== Banner Section ==== */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 309px 267.5px 152px;
+    gap: 37;
+    /* padding: 120px 20px; */
+}
+
+.banner-content {
+    max-width: 905px;
+    
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 65px;
+    /* color: #000000; */
+    /* margin-bottom: 24px; */
+    /* font-family: "Raleway", sans-serif; */
+}
+
+.inter-logo { 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.body-banner-title {
+    /* font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px; Apply general body font size */
+    
+    font-weight: bold;
+    font-size: 42px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:<weight>;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
