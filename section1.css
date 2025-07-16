@@ -109,10 +109,57 @@ nav li a {
 .second-section{
     display: flex;
     justify-content: space-between;
-    margin: 116px 159px 0 141px;
+    margin: 116px 159px 100px 141px;
 }
 /* main{
     padding-top: 116px;
     align-items: center;
     text-align: center
 } */
+.datas h3 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+}
+
+.datas p {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.productive-datas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productive-title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 40px;
+}
+
+.productive-section{
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: space-around;
+    background-color: #dddee3;
+    padding: 30px 10px;
+    text-align: center;
+    border-radius: 24px;
+    margin: 0 141px 100px 152px;
+    /* max-width: 1140px; */
+}
+
+.productive-container {
+    background-color: #dddee3;
+    padding: 10px 5px;
+    max-width: 856px;
+    margin: 0 auto;
+    /* opacity: 0.1; */
+}
