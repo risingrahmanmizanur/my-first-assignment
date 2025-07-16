@@ -1,3 +1,19 @@
+.inter-logo { 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.body-banner-title {
+
+    font-weight: bold;
+    font-size: 42px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:<weight>;
+    font-style: normal;
+}
 
 .nav {
     display: flex;
@@ -36,12 +52,12 @@ nav li a {
     border: none;
     padding: 12px 36px;
     cursor: pointer;
-    font-family: "Raleway", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
 }
 
 
 .header {
-    background-image: url('/Images/Hero-bg.png');
+    background-image: url('Images/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,19 +81,38 @@ nav li a {
     font-size: 65px;
 }
 
-.inter-logo { 
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
-.body-banner-title {
-
-    font-weight: bold;
+.section-title {        
     font-size: 42px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:<weight>;
-    font-style: normal;
+    font-weight: bold;
+    color: #252432;
 }
+
+.section-description {
+    font-size: 24px;
+    font-weight: 400;
+    color: #252432;
+    opacity: 0.5;
+}
+
+.section-pic {
+    /* display: flex; */
+    justify-content: center;
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+/* banner content */
+.action-content {
+    max-width: 517px;
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 159px 0 141px;
+}
+/* main{
+    padding-top: 116px;
+    align-items: center;
+    text-align: center
+} */
