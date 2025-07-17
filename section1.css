@@ -273,3 +273,50 @@ button:hover{
     transform: scale(1.02); /* slightly grow */
     transition: all 0.3s ease;
 }
+/* last footer */
+.footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    border-top: 1px solid #eee;
+}
+
+.f-logo {
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+
+.footer .f-subtitle {
+    text-align: center;
+    color: #8987A1;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 450px;
+    margin: 0 auto 5px;
+}
+
+.u-link a:hover {
+    text-decoration: underline;
+}
+
+.u-link ul {
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.u-link ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.u-link li a {
+    color: #8987A1;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+}
