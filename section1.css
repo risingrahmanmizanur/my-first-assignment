@@ -163,3 +163,113 @@ nav li a {
     margin: 0 auto;
     /* opacity: 0.1; */
 }
+
+/* FORM SECTION */
+.datas h3 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+}
+
+.datas p {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.productive-datas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productive-title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 40px;
+}
+
+.productive-section {
+    justify-content: space-around;
+    background-color: #dddee3;
+    padding: 30px 10px;
+    text-align: center;
+    border-radius: 24px;
+    margin: 0 141px 100px 152px;
+}
+
+.productive-container {
+    background-color: #dddee3;
+    padding: 10px 5px;
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+
+.left-side h2 {
+    font-size: 97px;
+    font-weight: bold;
+    max-width: 528px;
+    margin: 0 160px;
+}
+
+
+.right-side {
+    background-color: #dddddd;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    max-width: 497px;
+    width: 100%;
+
+}
+
+.right-side label {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin bottom: 5px;
+}
+
+
+.right-side input,
+.right-side textarea {
+    width: 100%;
+    padding: 32px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.right-side textarea {
+    resize: vertical;
+    padding: 32px;
+    height: 100px;
+}
+.form-section{
+    background-color: #dddddd ;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.right-button{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+} 
+
+
+button:hover{
+    background-color: red; /* hover background color */
+    color: black; /* hover text color */
+    transform: scale(1.02); /* slightly grow */
+    transition: all 0.3s ease;
+}
